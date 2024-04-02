@@ -1,0 +1,25 @@
+/* Stylowanie kontenera iframe z dodanym marginesem od góry */
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Dodanie marginesu od góry */
+}
+
+/* Stylowanie iframe */
+.iframe-container iframe {
+    max-width: 100%; /* Ustawienie maksymalnej szerokości */
+    max-height: 100%; /* Ustawienie maksymalnej wysokości */
+}
+
+/* Stylowanie iframe */
+.iframe {
+    display: block;
+    margin: 0 auto; /* Wyśrodkowanie w poziomie */
+}
+
+/* Stylowanie iframe */
+.iframe {
+    width: 100%;
+    height: 900px; /* Ustawienie wysokości na automatyczną */
+}

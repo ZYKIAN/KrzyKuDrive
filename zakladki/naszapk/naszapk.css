@@ -1,0 +1,22 @@
+.main-content {
+    text-align: center;
+}
+
+table {
+    width: 80%; /* Możesz dostosować szerokość tabeli do preferencji */
+    margin: auto; /* Ustawienie marginesów na auto umieści tabelę na środku */
+}
+
+td {
+    padding: 20px; /* Dodanie wewnętrznego marginesu dla komórek tabeli */
+}
+
+img {
+    max-width: 200px; /* Maksymalna szerokość obrazka */
+    max-height: 200px; /* Maksymalna wysokość obrazka */
+}
+
+.nasze-aplikacje {
+    font-size: 36px; /* Zwiększenie rozmiaru tekstu */
+    margin-top: 50px; /* Dodanie marginesu z góry, aby przenieść tekst niżej */
+}
