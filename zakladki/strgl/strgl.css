@@ -1,0 +1,30 @@
+/* Style dla półprzezroczystego białego prostokąta */
+.overlay {
+    position: fixed;
+    top: 270px; /* Odległość od górnej krawędzi */
+    left: 70px; /* Odległość od lewej krawędzi */
+    right: 70px; /* Odległość od prawej krawędzi */
+    bottom: 150px; /* Odległość od dolnej krawędzi */
+    background-color: rgba(255, 255, 255, 0.7); /* Kolor półprzezroczysty */
+    padding: 20px;
+    border-radius: 15px; /* Lekko zakrzywione krawędzie */
+    z-index: 1; /* Ustawienie indeksu z na wyższy poziom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style dla tła pod nagłówkiem */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Fastfood.jpg'); /* Ścieżka do tła */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Dostosuj poziom przezroczystości */
+    z-index: -1; /* Ustawienie indeksu z na niższy poziom */
+}
